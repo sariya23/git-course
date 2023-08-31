@@ -29,3 +29,15 @@ $ mkdir second-project && cd second-project && touch index.html style.css
 # переходим в папку second-project
 # и создаём в ней два файла: index.html и style.css
 ```
+
+## Git.
+
+### Установка Git.
+Для усановки Git в linux Ubuntu используется следующая команда: ```$ apt-get install git```.
+Чтобы проверить, что Git установился, нужно ввести следующую команду: ```$ git --version```.
+
+### Настройка Git.
+Конфиг Git'a лежит в файле ```.gitconfig```. Он находится в домашней директории. Чтобы укзать глабаольное имя пользователя нужно ввести слудующую команду: ```$ git config --global user.name "name"```. Чтобы указать почту, нужно ввести слудующую команду: ``` $ git config --global user.email username@yandex.ru```. Чтобы вывести значение конфига, нужно ввести следующую команду: ```$ git config --list```
+
+
+ 	
