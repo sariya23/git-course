@@ -71,7 +71,7 @@ $ mkdir second-project && cd second-project && touch index.html style.css
 
 ### Откат файлов и коммитов
 ```git restore --staged <file name>``` - переведет файл в состояния staged обртано в untracked или modified
-```git restore <file name>``` - вернет файл к последней версии, которая была сохранена через ```git commit``` или ``git add```
+```git restore <file name>``` - вернет файл к последней версии, которая была сохранена через ```git commit``` или ```git add```
 
 ```git reset --hard <hash>``` - удалит все незакомиченные изменения до указанного коммита
 
